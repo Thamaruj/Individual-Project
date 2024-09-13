@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+
+.WelcomePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust if needed */
+    position: relative; /* Position relative to allow absolute positioning inside */
+    font-family: "Rajdhani", sans-serif;
+}
+  
+.f1logo {
+    max-width: 85%;         /* Scale down with the container */
+    height: auto;           /* Maintain aspect ratio */
+    display: block;         /* Make sure the image is treated as a block element */
+    margin-left: auto;      /* Push the image to the center */
+    margin-right: auto;    
+}
+
+.note {
+position: absolute; /* Position text absolutely within the logo container */
+top: 10%;           /* Adjust this value to move text vertically */
+color: rgb(0, 0, 0);      
+text-align: center;
+z-index: 1; 
+font-family: "Rajdhani", sans-serif;
+font-weight: 400px;
+font-style: normal;
+font-size: 50px;
+}
+
+.clickButtons{
+    top: 85vh;
+    position: absolute;
+    font-size: 20px;
+    background-color: none;
+    border-radius: 15px;
+    width: 60vw;
+    text-align: center;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    gap: 15vw;
+}
+
+.signInButton, .signUpButton{
+    width: 100vw;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-color: red;
+    border-style: solid;
+    transition: 0.8s;
+}
+
+.signInButton:hover,
+.signUpButton:hover {
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+
+.partners {
+    position: absolute;
+    display: flex;
+    top: 100%;
+    justify-content: center; 
+    width: 100%; /* Ensure it spans the full width of the parent */
+    gap: 1em;
+    vertical-align: middle;
+    background-color: black;
+}
+
+.partners p {
+    font-size: 1.01em; 
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.f1WhiteLogo {
+    margin-top: 1em;
+    margin-left: 1em;
+    width: 50px;
+    height: 20px;
+}
+
+@media (max-width: 860px) {
+    .partners p {
+        font-size: 0.8em; /* Smaller font size on mobile */
+    }
+
+    .f1WhiteLogo{
+        margin-top: 0.7em;
+    }
+
+    .note {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 38px;
+    }
+}
+
+
+
+
+  
