@@ -5,12 +5,9 @@ import lightImage from '../public/light_mode_16dp_FFFFFF_FILL0_wght400_GRAD-25_o
 import darkImage from '../public/dark_mode_16dp_FFFFFF_FILL0_wght400_GRAD-25_opsz20.png'
 
 function App() {
-  const [darkMode, setDarkMode] =useState(false)
-
-  console.log("Current darkMode state:", darkMode);
+  const [darkMode, setDarkMode] =useState(false); {/*dark mode is variable,where it's strating value is false. When we use setDarkMode it changes the dark mode value to true */}
 
   const toggleTheme = () => {
-    console.log("Toggle theme button clicked");
     setDarkMode(!darkMode);
   };
   
