@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+.light-mode .theme-toggle-button {
+    cursor: pointer;
+    position: relative;
+    border: none;
+    font-family: "Rajdhani", sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 1em;
+    height: 40px; /* increased height for space */
+    border-radius: 10px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+    padding: 0 10px; /* Add padding for better spacing */
+    transition: 1s;
+
+}
+
+.dark-mode .theme-toggle-button{
+    cursor: pointer;
+    position: relative;
+    border: none;
+    font-family: "Rajdhani", sans-serif;    
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 40px; /* increased height for space */
+    border-radius: 10px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+    padding: 0 10px; /* Add padding for better spacing */
+    transition: 1s;
+
+}
+
+
+.button-icon {
+    width: 20px; /* Adjust size */
+    height: 20px; /* Adjust size */
+    margin-right: 10px; /* Spacing between image and text */
+}
+
+
+.theme-image{
+    height: 25px;
+    width: 25px;
+}
+
+
+@media(max-width:860px){
+    .theme-toggle-button{
+        font-size: 0.3em;
+    }
+    .theme-image{
+        height: 15px;
+        width: 15px;
+    }
+    
+}

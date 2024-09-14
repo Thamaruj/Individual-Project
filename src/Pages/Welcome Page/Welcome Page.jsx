@@ -3,7 +3,9 @@ import './Welcome Page.css';
 import f1Logo from '../Welcome Page/Welcome Page Images/f1_logo.png'
 import f1RedLogo from '../Welcome Page/Welcome Page Images/F1_red.png'
 
+
 const WelcomePage = () => {
+
     return (
         <nav className="WelcomePage">
             <div className='note'>Welcome To The Ultimate Racing Spectacle</div>

@@ -109,5 +109,31 @@ font-size: 50px;
 
 
 
+/* Adjust your existing styles to work with theme classes */
+.dark-mode .note,
+.dark-mode .signInButton,
+.dark-mode .signUpButton,
+.dark-mode .partners p {
+  color: rgb(255, 255, 255); /* Example for text color */
+}
 
-  
+.light-mode .note,
+.light-mode .signInButton,
+.light-mode .signUpButton{
+  color: black; /* Example for text color */
+}
+
+.light-mode .partners p{
+    color: white;
+}
+
+.light-mode .signInButton:hover,
+.light-mode .signUpButton:hover{
+  color: rgb(255, 255, 255); /* Example for text color */
+}
+
+.dark-mode .signInButton:hover,
+.dark-mode .signUpButton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}  
