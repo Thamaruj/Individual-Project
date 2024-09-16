@@ -58,7 +58,7 @@ function SignUp () {
     return (
         <div className="container">
 
-            <div className="f1-logo-container"><img className="f1-logo" src={f1Logo} alt="" /></div>
+            <div className="f1-logo-container"><Link to="/"><img className="f1-logo" src={f1Logo} alt="" /></Link></div>
 
 
                 <div className="sign-up-form-container">
