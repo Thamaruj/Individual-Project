@@ -16,6 +16,14 @@ function SignUp () {
     const [password, SetPassword]=useState('');
     const [confirmPassword, SetConfirmPassword]=useState('');
 
+    const validatePassword = (password) => {
+        const hasNumber = /\d/; // Checks for at least one number
+        const hasLowercase = /[a-z]/; // Checks for at least one lowercase letter
+        const hasUppercase = /[A-Z]/; // Checks for at least one uppercase letter
+
+        return hasNumber.test(password) && hasLowercase.test(password) && hasUppercase.test(password);
+    }
+
     const handleSubmit = (e) =>{
         e.preventDefault();     {/* Prevent Page from Reloading*/}
         if(password!==confirmPassword){
@@ -26,6 +34,12 @@ function SignUp () {
         }
         if(password.length<8 || password.length>30){
             alert('Invalid Length!');
+            SetPassword('');
+            SetConfirmPassword('');
+            return;
+        }
+        if(!validatePassword(password)) {
+            alert('Password must contain at least one number, one lowercase letter, and one uppercase letter.');
             SetPassword('');
             SetConfirmPassword('');
             return;
