@@ -27,6 +27,7 @@
 .signup-button-in-login-page a{
     text-decoration: none;
     color: white;
+    transition: 1s;
 }
 
 .login-proceed-button {
