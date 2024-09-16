@@ -2,6 +2,7 @@ import React from 'react';
 import './Welcome Page.css';
 import f1Logo from '../Welcome Page/Welcome Page Images/f1_logo.svg'
 import f1RedLogo from '../Welcome Page/Welcome Page Images/F1_red.png'
+import {Link} from 'react-router-dom';
 
 
 const WelcomePage = () => {
@@ -11,8 +12,8 @@ const WelcomePage = () => {
             <div className='note'>Welcome To The Ultimate Racing Spectacle</div>
             <div><img className='f1logo' src={f1RedLogo} alt="" /></div>
             <div className='clickButtons'>
-                <div className='signInButton'>Log In</div>
-                <div className='signUpButton' >Sign up</div>
+                <Link to="/signup" className='signUpButton'>Sign up</Link>
+                <Link to="/signin" className='signInButton'>Log In</Link>
             </div>
             <div className='partners'>
                 <img className='f1WhiteLogo' src={f1Logo} alt="" />

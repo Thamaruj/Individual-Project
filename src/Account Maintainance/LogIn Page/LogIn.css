@@ -1,0 +1,81 @@
+.container-log-in-form{
+    display: flex;
+    height: 100vh;
+    align-items: center;      /* Center vertically */
+    flex-direction: column;   /* Align content in a column */
+    font-family: "Rajdhani", sans-serif;
+}
+
+.log-in-form{
+    border: #5d5959;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    width: 45%;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center children horizontally */
+    padding: 20px; /* Optional: adds space inside the container */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    line-height: 3em;
+}
+
+.login-button-in-login-page{
+    color: rgb(246, 48, 48);
+}
+
+.signup-button-in-login-page a{
+    text-decoration: none;
+    color: white;
+}
+
+.login-proceed-button {
+    display: flex; /* Flexbox is useful for centering */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    text-align: center; /* Ensure text is centered inside */
+    margin-top: 2em;
+    border-style: solid;
+    height: 2em;
+    width: 8em;
+    border-radius: 5px;
+    transition: 1s;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(210, 2, 2);
+    color: white;
+}
+
+.login-proceed-button:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.partners-sign-in{
+    vertical-align: middle;
+    background-color: black;
+    color: #ffffff;
+    position:fixed;
+    display: flex;
+    bottom: 0%;
+    justify-content: center; 
+    width: 100%; /* Ensure it spans the full width of the parent */
+    gap: 1em;
+}
+
+.light-mode .signup-button-in-login-page a{
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width:856px){
+    .partners-sign-in{
+        font-size: 0.8em;
+    }
+    .log-in-form{
+        width: 100%;
+    }
+    .container-log-in-form{
+        margin: 20px;
+    }
+}

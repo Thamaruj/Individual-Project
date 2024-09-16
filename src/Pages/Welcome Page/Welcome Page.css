@@ -101,6 +101,10 @@ transition: transform 2s ease;  /* Smooth transformation effect */
     height: 20px;
 }
 
+.clickButtons a{
+    text-decoration: none;
+}
+
 @media (max-width: 860px) {
     .partners p {
         font-size: 0.8em; /* Smaller font size on mobile */

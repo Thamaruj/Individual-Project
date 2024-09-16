@@ -4,7 +4,7 @@
   font-weight: 400;
 
   .light-mode {
-    background-color: white;
+    background-color: #ffffff;
     color: black;
     transition: 1s;
   }
@@ -22,12 +22,8 @@
 }
 
 
-body {
+body{
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 
