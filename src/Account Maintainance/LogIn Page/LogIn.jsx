@@ -16,11 +16,13 @@ function LogIn (){
                     <h1 className="login-button-in-login-page">Log In </h1>
                 </div>
 
-                <label>Username</label>
-                <input className="input-box" type="email" placeholder="Enter Your Email" />
+                <div className="sign-up-form">
+                    <label>Username</label>
+                    <input className="input-box" type="email" placeholder="Enter Your Email" />
 
-                <label>Password</label>
-                <input className="input-box" type="password" name="" id="" placeholder="Enter Your Password" />
+                    <label>Password</label>
+                    <input className="input-box" type="password" name="" id="" placeholder="Enter Your Password" />
+                </div>
 
                 <div className="login-proceed-button">Log In</div>
 

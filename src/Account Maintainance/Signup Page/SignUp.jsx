@@ -15,6 +15,7 @@ function SignUp () {
     const [email, SetEmail]= useState('');
     const [password, SetPassword]=useState('');
     const [confirmPassword, SetConfirmPassword]=useState('');
+    const [hasTypedConfirmPassword, setHasTypedConfirmPassword] = useState(false);
 
     const validatePassword = (password) => {
         const hasNumber = /\d/; // Checks for at least one number
@@ -77,7 +78,7 @@ function SignUp () {
                                     <option value="" disabled>Select Title</option> {/*We use this as place holder option */}
                                     <option value="Mr">Mr</option>
                                     <option value="Mrs">Mrs</option>
-                                    <option value="Miss">Miss</option>
+                                    <option value="Miss">Miss</option>  
                                     <option value="Ms">Ms</option>
                                 </select>
 

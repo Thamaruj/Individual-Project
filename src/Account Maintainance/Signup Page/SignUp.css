@@ -5,8 +5,8 @@
     height: 200vh;            /* Full viewport height */
     flex-direction: column;   /* Align content in a column */
     font-family: "Rajdhani", sans-serif;
-
 }
+
 
 .sign-up-form-container {
     border: #5d5959;
@@ -72,14 +72,15 @@
 .register-button{
     width: 5em;
     height: 2em;
-    background-color: red;
-    color: white;
+    color: rgb(236, 4, 4);
+    background-color: white;
     border-style: solid;
     border-radius: 8px;
     font-size: 20px;
-    border: none;
     font-family: "Rajdhani", sans-serif;
     transition: 0.5s;
+    border-color: red;
+    border-width: 1px;
 
 }
 
@@ -89,8 +90,10 @@
 
 .register-button:hover{
     cursor: pointer;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
+    color: rgb(255, 255, 255);
+    background-color: rgb(236, 1, 1);
+    border-color: red;
+    border-width: 1px;
 }
 
 /*This a refers to the Link which is the anchor tag*/
@@ -107,8 +110,6 @@
 
 .dark-mode .register-button:hover{
     cursor: pointer;
-    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
-    transform: scale(1.05);
 }
 
 .partners-sign-up {

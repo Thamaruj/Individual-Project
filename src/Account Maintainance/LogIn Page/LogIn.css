@@ -20,6 +20,7 @@
     line-height: 3em;
 }
 
+
 .login-button-in-login-page{
     color: rgb(246, 48, 48);
 }
@@ -52,6 +53,7 @@
     transform: scale(1.03);
     cursor: pointer;
 }
+
 
 .partners-sign-in{
     vertical-align: middle;
