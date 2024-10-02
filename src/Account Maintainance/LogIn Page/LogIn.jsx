@@ -24,7 +24,7 @@ function LogIn (){
                     <input className="input-box" type="password" name="" id="" placeholder="Enter Your Password" />
                 </div>
 
-                <div className="login-proceed-button">Log In</div>
+                <div className="login-proceed-button"><Link to="/home">Log In </Link></div>
 
             </div>
 

@@ -5,7 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import lightImage from '../public/light_mode_16dp_FFFFFF_FILL0_wght400_GRAD-25_opsz20.png';
 import darkImage from '../public/dark_mode_16dp_FFFFFF_FILL0_wght400_GRAD-25_opsz20.png';
 import SignUp from './Account Maintainance/SignUp page/Signup';
-import LogIn from './Account Maintainance/Login Page/Login';
+import LogIn from './Account Maintainance/LogIn Page/LogIn';
+import MainPage from './Pages/Main Page/Main page';
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -24,7 +26,8 @@ function App() {
         <Routes>
           <Route path="/" element={<WelcomePage />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route path="/signin" element={<LogIn />} />
+          <Route path="/signin" element={<LogIn/>} />
+          <Route path="/home" element={<MainPage/>} />
         </Routes>
       </div>
     </Router>

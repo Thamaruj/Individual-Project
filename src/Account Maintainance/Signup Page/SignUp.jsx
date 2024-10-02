@@ -127,9 +127,13 @@ function SignUp () {
 
                         <div>
                             <label>Confirm Password</label>
-                            <input className="input-box" type="password" value={confirmPassword} placeholder="********" onChange={(e)=> SetConfirmPassword(e.target.value)} required/>
+                            <input className="input-box" type="password" value={confirmPassword} placeholder="********" onChange={(e)=> {SetConfirmPassword(e.target.value);setHasTypedConfirmPassword(true);}} required/>
                             <span>* password must contain 8-30 Characters, Number, Lowercase, and Uppercase</span>
                         </div>
+
+                            {hasTypedConfirmPassword && confirmPassword && (password !== confirmPassword) && (
+                                <p style={{ color: 'red', fontSize: '14px' }}>Passwords do not match!</p>
+                            )}
 
                         <div>
                             <p>By clicking on register, I agree that I have read and agree to the Terms and Conditions and Privacy Policy</p>

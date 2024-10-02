@@ -65,6 +65,7 @@ transition: transform 2s ease;  /* Smooth transformation effect */
     border-color: red;
     border-style: solid;
     transition: 0.8s;
+    border-width: 2px;
 }
 
 .signInButton:hover,
