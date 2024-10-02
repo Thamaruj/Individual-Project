@@ -6,6 +6,10 @@
     font-family: "Rajdhani", sans-serif;
 }
 
+.f1-logo-container{
+    padding-top: 10px;
+}
+
 .log-in-form{
     border: #5d5959;
     border-style: solid;

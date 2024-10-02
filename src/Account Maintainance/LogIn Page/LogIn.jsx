@@ -7,7 +7,7 @@ function LogIn (){
     return(
         <div className="container-log-in-form">
             
-            <div className="f1-logo-container"><Link to="/"><img className="f1-logo" src={f1Logo} alt="" /></Link></div>
+            <div className="f1-logo-container"><Link to="/home"><img className="f1-logo" src={f1Logo} alt="" /></Link></div>
 
             <div className="log-in-form">
             
@@ -24,7 +24,7 @@ function LogIn (){
                     <input className="input-box" type="password" name="" id="" placeholder="Enter Your Password" />
                 </div>
 
-                <div className="login-proceed-button"><Link to="/home">Log In </Link></div>
+                <div className="login-proceed-button"><Link to="/homepage">Log In </Link></div>
 
             </div>
 
