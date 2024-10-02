@@ -46,7 +46,7 @@ function App() {
         } />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<LogIn />} />
-        <Route path="/homepage" element={<MainPage />} />
+        <Route path="/mainpage" element={<MainPage />} />
       </Routes>
     </div>
   );
