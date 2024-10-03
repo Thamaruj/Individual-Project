@@ -30,8 +30,11 @@
     padding: 10px;
     font-size: 1.2em;
     font-weight: 500;
+}
 
-    
+.button-navigator-in-navbar a{
+    color: white;
+    text-decoration: none;
 }
 
 .f1-white-logo{
