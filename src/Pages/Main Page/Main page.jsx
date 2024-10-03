@@ -12,6 +12,7 @@ import austinTrack from "../Main Page/Images/Austin.png"
 import singaporeTrack from "../Main Page/Images/Singapore.png"
 import adrianInAston from "../Main Page/Images/AdrianPhoto.png"
 import ferrari from "../Main Page/Images/ferrari.png"
+import lewisImage from"../Main Page/Images/lewis image.png"
 
 const MainPage = () => {
 
@@ -61,6 +62,24 @@ const MainPage = () => {
 
                     </div>
                 </div>
+
+                <div className="middle-latest-updates-container">
+
+                    <div className="middle-latest-updates-sub-container-one">
+
+                            <div className="sub-container-one-quote">
+                                <div>‘It’s been a battle of the mind’</div>
+                                <div className="sub-container-one-quote-varient-1"> "I think I learned that life is really about how much pain you can experience and keep going, and how much you can suffer and keep moving forward, you know? And that’s life, right? “It’s not how you fall; it’s how you get up. It’s how you continue to apply yourself every single day. It’s how you connect with people that you work with.”
+                                <div ><a href="https://www.youtube.com/watch?v=hzlqtID692Y"><button className="video-play-button">Watch now</button></a></div>
+                                </div>
+                                
+                            </div>
+
+                            <div className="sub-container-one-image-box"><img className="sub-container-one-image" src={lewisImage} alt="" /></div>
+                        </div>
+
+                </div>
+
 
                 <div className="middle-latest-updates-container">
 
