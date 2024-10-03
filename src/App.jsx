@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import WelcomePage from './Pages/Welcome Page/Welcome Page';
-import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom'; // Import Navigate
 import lightImage from '../public/light_mode_16dp_FFFFFF_FILL0_wght400_GRAD-25_opsz20.png';
 import darkImage from '../public/dark_mode_16dp_FFFFFF_FILL0_wght400_GRAD-25_opsz20.png';
 import SignUp from './Account Maintainance/SignUp page/Signup';
@@ -9,7 +9,6 @@ import LogIn from './Account Maintainance/LogIn Page/LogIn';
 import MainPage from './Pages/Main Page/Main page';
 import Navbar from './Common Components/Nav bar/Nav bar';
 import Sponsers from './Common Components/Sponsers Details/Sponser';
-
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,12 +30,13 @@ function App() {
           lightImage={lightImage}
           darkImage={darkImage}
         />
-
-        
       )}
 
       <Routes>
+        {/* Redirect from root (/) to /mainpage */}
         <Route path="/" element={<Navigate to="/mainpage" />} />
+
+        {/* Other routes */}
         <Route path="/home" element={
           <>
             {/* Dark mode toggle only on Welcome Page */}
@@ -44,7 +44,6 @@ function App() {
               {darkMode ? <img className='theme-image' src={lightImage} alt="Light Mode" /> : <img className='theme-image' src={darkImage} alt="Dark Mode" />}
             </button>
             <WelcomePage />
-            
           </>
         } />
         <Route path="/signup" element={<SignUp />} />
