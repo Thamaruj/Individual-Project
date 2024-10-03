@@ -22,29 +22,40 @@ const MainPage = () => {
                     <div className="latest-updates-top-one-left">
                         <div className="latest-updates-top-one-left-heading">"It Wasnt't the greatest decision of my life"- Riccardo reflects on his sliding doors move away from Red Bull in 2018</div>
                         <div><img className="latest-updates-top-one-left-image" src={riccardoWin} alt="" /></div>
-                        <div>I can certainly look back on it and say, ‘okay’… I think at the time obviously in my head everything made sense, but was it the best decision of my career? Of course you could argue, ‘no it wasn’t. Look, I’m okay with that. It’s one of those ones. Also, there’s no guarantee that if I stayed I would have done amazing and won this and that, so you never know But, of course, I’m not going to stand here and say that was the greatest decision of my life, but you live and you learn, and obviously it eventually brought me back into the family.</div>
+                        <div>I can certainly look back on it and say, ‘okay’… I think at the time obviously in my head everything made sense, but was it the best decision of my career? Of course you could argue, ‘no it wasn’t. Look, I’m okay with that. It’s one of those ones. Also, there’s no guarantee that if I stayed I would have done amazing and won this and that, so you never know But, of course, I’m not going to stand here and say that was the greatest decision of my life, but you live and you learn, and obviously it eventually brought me back into the family.
+                            <div className="read-more-button">Read More &#8594;</div>
+                        </div>
                     </div>
 
 
                     <div className="latest-updates-top-one-right">
                         <div className="latest-updates-top-one-right-slot">
                             <div><video className="video-slot" autoPlay loop muted playsInline src={riccardoVideo}></video></div>
-                            <div className="video-slot-description">How one-of-a-kind Ricciardo left a permanent mark on F1, both on and off the track</div>
+                            <div className="video-slot-description">How one-of-a-kind Ricciardo left a permanent mark on F1, both on and off the track
+                            <div className="read-more-button">Read More &#8594;</div>
+                            </div>
+                            
                         </div>
 
                         <div className="latest-updates-top-one-right-slot">
                             <div><video className="video-slot" autoPlay loop muted playsInline src={adrianVideo}></video></div>
-                            <div className="video-slot-description">From March to Red Bull – How long did it take Newey to make an impact at his previous F1 teams?</div>
+                            <div className="video-slot-description">From March to Red Bull – How long did it take Newey to make an impact at his previous F1 teams?
+                            <div className="read-more-button">Read More &#8594;</div>
+                            </div>
                         </div>
 
                         <div className="latest-updates-top-one-right-slot">
                             <div><video className="video-slot" autoPlay loop muted playsInline src={alphineVideo}></video></div>
-                            <div className="video-slot-description">ANALYSIS: What next for Alpine after Renault announce the end of F1 works engine programme?</div>
+                            <div className="video-slot-description">ANALYSIS: What next for Alpine after Renault announce the end of F1 works engine programme?
+                            <div className="read-more-button">Read More &#8594;</div>
+                            </div>
                         </div>
 
                         <div className="latest-updates-top-one-right-slot">
                             <div><video className="video-slot" autoPlay loop muted playsInline src={kimiAntoneli}></video></div>
-                            <div className="video-slot-description">Antonelli ready to deal with F1 pressure – but insists he doesn’t want to be seen as Hamilton’s ‘replacement</div>
+                            <div className="video-slot-description">Antonelli ready to deal with F1 pressure – but insists he doesn’t want to be seen as Hamilton’s ‘replacement
+                            <div className="read-more-button">Read More &#8594;</div>
+                            </div>
                         </div>
 
 
