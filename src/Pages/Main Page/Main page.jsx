@@ -29,7 +29,7 @@ const MainPage = () => {
                     <div className="latest-updates-top-one-right">
                         <div className="latest-updates-top-one-right-slot">
                             <div><video className="video-slot" autoPlay loop muted playsInline src={riccardoVideo}></video></div>
-                            <div className="video-slot-description">How one-of-a-kind Ricciardo left a permanent mark on F1 – both on and off the track</div>
+                            <div className="video-slot-description">How one-of-a-kind Ricciardo left a permanent mark on F1, both on and off the track</div>
                         </div>
 
                         <div className="latest-updates-top-one-right-slot">
