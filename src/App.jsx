@@ -8,6 +8,7 @@ import SignUp from './Account Maintainance/SignUp page/Signup';
 import LogIn from './Account Maintainance/LogIn Page/LogIn';
 import MainPage from './Pages/Main Page/Main page';
 import Navbar from './Common Components/Nav bar/Nav bar';
+import Sponsers from './Common Components/Sponsers Details/Sponser';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           lightImage={lightImage}
           darkImage={darkImage}
         />
+
         
       )}
 
