@@ -34,7 +34,7 @@ function App() {
 
       <Routes>
         {/* Redirect from root (/) to /mainpage */}
-        <Route path="/" element={<Navigate to="/mainpage" />} />
+        <Route path="/Individual-Project/" element={<Navigate to="/mainpage" />} />
 
         {/* Other routes */}
         <Route path="/home" element={

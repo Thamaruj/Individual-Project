@@ -96,6 +96,16 @@
     border-width: 1px;
 }
 
+.back-to-home-button a {
+    text-decoration: none;
+    color: red;
+    transition: 0.8s;
+}
+
+.back-to-home-button a:hover {
+    font-size: 1.1em;
+}
+
 /*This a refers to the Link which is the anchor tag*/
 .login-button a{
     text-decoration: none; /* Remove underline */

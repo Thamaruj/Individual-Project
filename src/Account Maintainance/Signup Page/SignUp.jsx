@@ -141,6 +141,7 @@ function SignUp () {
 
                         <div>
                             <button className="register-button" type="submit">Register</button>
+                            <div className="back-to-home-button"><Link to="/mainpage">Back to home</Link> </div>
                         </div>
 
                     </form>
