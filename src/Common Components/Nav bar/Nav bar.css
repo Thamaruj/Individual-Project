@@ -23,17 +23,18 @@
 
 .button-navigator-in-navbar {
     background: none;
-    color: rgb(255, 255, 255);
+    color: rgb(233, 226, 226);
     border: none;
     cursor: pointer;
     font-size: 15px;
     padding: 10px;
     font-size: 1.2em;
     font-weight: 500;
+    transition: 0.5s;
 }
 
 .button-navigator-in-navbar a{
-    color: white;
+    color: rgb(243, 238, 238);
     text-decoration: none;
 }
 
@@ -47,7 +48,9 @@
 
 
 /*--------------------------------------Hover------------------------------------*/
-
+.button-navigator-in-navbar:hover{
+    color: rgb(255, 72, 0);
+}
 
 
 /*--------------------------------------mobile view-------------------------------*/
