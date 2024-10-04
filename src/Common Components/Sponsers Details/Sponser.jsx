@@ -76,7 +76,7 @@ const Sponsers = () => {
             <div className="main-links-section">
                 <div className="main-links-section-column">
                     <div>Latest</div>
-                    <div><Link to={'/whatIsF1'}>What is F1</Link></div>
+                    <div><Link to={'/whatIsf1'}>What is F1</Link></div>
                     <div>Video</div>
                     <div>Drivers</div>
                     <div>Teams</div>

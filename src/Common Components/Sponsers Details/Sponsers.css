@@ -73,6 +73,11 @@
     margin: 15px;
 }
 
+.main-links-section-column a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 /*-----------------------HOVER--------------------------*/
