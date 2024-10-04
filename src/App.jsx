@@ -9,6 +9,8 @@ import LogIn from './Account Maintainance/LogIn Page/LogIn';
 import MainPage from './Pages/Main Page/Main page';
 import Navbar from './Common Components/Nav bar/Nav bar';
 import Sponsers from './Common Components/Sponsers Details/Sponser';
+import WhatIsF1 from './Pages/What is f1/what is f1';
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -49,6 +51,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<LogIn />} />
         <Route path="/mainpage" element={<MainPage />} />
+        <Route path='/whatIsf1' element={<WhatIsF1/>}/>
       </Routes>
     </div>
   );

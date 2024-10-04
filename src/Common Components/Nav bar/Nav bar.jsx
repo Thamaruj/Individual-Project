@@ -8,7 +8,7 @@ const Navbar = ({  toggleTheme }) => {
   return (
     <nav className="navbar">
 
-        <div><img className='f1-white-logo' src={f1_logo_white} alt="" /></div>
+        <div><Link to={"/mainpage"}><img className='f1-white-logo' src={f1_logo_white} alt="" /></Link></div>
 
         <div>
           <ul>

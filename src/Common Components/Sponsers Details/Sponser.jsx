@@ -1,5 +1,6 @@
 import React from "react";
 import './Sponsers.css'
+import { Link } from "react-router-dom";
 import logoF1 from '../Sponsers Details/f1_logo.svg'
 import pirelli from '../Sponsers Details/pirelli.png'
 import aramco from '../Sponsers Details/aramco.png'
@@ -75,7 +76,7 @@ const Sponsers = () => {
             <div className="main-links-section">
                 <div className="main-links-section-column">
                     <div>Latest</div>
-                    <div>What is F1</div>
+                    <div><Link to={'/whatIsF1'}>What is F1</Link></div>
                     <div>Video</div>
                     <div>Drivers</div>
                     <div>Teams</div>
