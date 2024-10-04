@@ -12,9 +12,9 @@ const Navbar = ({  toggleTheme }) => {
 
         <div>
           <ul>
-              
+
+              <li className='button-navigator-in-navbar'><Link to={'/whatIsf1'}>Explore</Link></li>    
               <li className='button-navigator-in-navbar'>Schedule</li>
-              <li className='button-navigator-in-navbar'>Results</li>
               <li className='button-navigator-in-navbar'>Drivers</li>
               <li className='button-navigator-in-navbar'>Teams</li>
               <li className='button-navigator-in-navbar'> Tickets</li>    

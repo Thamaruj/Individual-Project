@@ -39,7 +39,7 @@
 
 .description-in-head-image {
     margin-top: 1px;
-    font-size: 2.9em;
+    font-size: 2.7em;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
@@ -70,6 +70,112 @@
 }
 
 
+/*<<<<<<<<<<<<<<<<<<<<<CONTENT IN MAIN CONTAINER>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.sub-container-variant1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+
+.sub-container-variant1-left{
+    width: 50%;
+}
+
+.sub-container-variant1-right{
+    width: 50%;
+}
+
+.sub-container-variant1-left-heading{
+    font-size: 5em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sub-container-variant1-left-sub--heading{
+    font-size: 0.3em;
+}
+
+.sub-container-variant1-right-video{
+    width: 98%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.sub-container-variant1-bottom{
+
+    margin:5px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(2, 237, 205);
+    border-width: 10px;
+    border-top: none;
+    border-right: none;
+    width: 95%;
+    margin-bottom: 30px;
+    margin-top: 5%;
+}
+
+.sub-container-variant1-bottom-descriptions{
+    margin: 15px;
+    font-size: 1.2em;
+    width: 95%;
+}
+
+.sub-container-variant1-bottom-descriptions div{
+    margin-top: 2.5%;
+}
+
+
+
+/*// sub container variant 2*/
+
+.sub-container-variant2-left-video{
+    width: 98%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.sub-container-variant2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-left: 10px;
+}
+
+.sub-container-variant2-left{
+    width: 50%;
+}
+
+.sub-container-variant2-right{
+    width: 50%;
+}
+
+.sub-container-variant2-right-heading{
+    font-size: 5em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sub-container-variant2-right-sub--heading{
+    font-size: 0.3em;
+}
+
+.sub-container-variant2-bottom{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(255, 23, 6);
+    border-width: 10px;
+    border-top: none;
+    border-left: none;
+    width: 98%;
+    margin-bottom: 30px;
+}
+
+
 /*<<<<<<<<<<<<<<<<<<<<<<<HOVER>>>>>>>>>>>>>>>>>>>>>>>.*/
 .click-here-button-in-header:hover {
     cursor: pointer;
@@ -94,7 +200,7 @@
         height: 250px;
     }
     .components-within-header-image {
-        top: 50%;
+        top: 40%;
 
     }
     .heading-in-head-image {
@@ -113,6 +219,23 @@
     .click-here-button-in-header a {
         font-size: 0.8em;
         width: 75px;
+    }
+    
+
+    /*<<<<<<<<<<<<<<<<<<<<< <MOBILEEE>>>>>>>CONTENT IN MAIN CONTAINER>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    .sub-container-variant1-left-heading{
+        font-size: 1.5em;
+    }
+
+    .sub-container-variant1-bottom{
+        border-width: 6px;
+    }
+    .sub-container-variant1-bottom-descriptions{
+        font-size: 0.7em;
+    }
+    .sub-container-variant2-right-heading{
+        font-size: 1.5em;
     }
     
 }
