@@ -76,6 +76,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
+    height: 100%;
     
 }
 
@@ -142,7 +143,7 @@
     width: 99%;
     display: flex;
     justify-content: space-between;
-    margin-top: 15%;
+    margin-top: 12%;
     padding-left: 5px;
 }
 
@@ -171,7 +172,7 @@
     border-width: 10px;
     border-top: none;
     border-left: none;
-    width: 95%;
+    width: 99%;
     margin-bottom: 30px;
 }
 
@@ -222,12 +223,11 @@
     }
     
 
-    /*<<<<<<<<<<<<<<<<<<<<< <MOBILEEE>>>>>>>CONTENT IN MAIN CONTAINER>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    /*<<<<<<<<<<<<<<<<<<<<<<MOBILEEE>>>>>>>CONTENT IN MAIN CONTAINER>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
     .sub-container-variant1-left-heading{
         font-size: 1.5em;
     }
-
     .sub-container-variant1-bottom{
         border-width: 6px;
     }
@@ -237,5 +237,9 @@
     .sub-container-variant2-right-heading{
         font-size: 1.5em;
     }
+    .sub-container-variant2-bottom{
+        border-width: 6px;
+    }
+
     
 }

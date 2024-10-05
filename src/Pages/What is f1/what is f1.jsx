@@ -41,11 +41,11 @@ const WhatIsF1 = () =>{
                         <div className='sub-container-variant1-bottom'>
                             <div className='sub-container-variant1-bottom-descriptions'>
                                 <div>
-                                    Formula 1, often referred to as F1, is the pinnacle of motorsport, where cutting-edge technology meets unparalleled speed. The thrill lies not only in the high-speed races but also in the intricate strategies and team dynamics. With races held in stunning locations from Monaco to Suzuka, F1 captivates millions of fans worldwide. It’s more than just a sport; it’s a community united by a shared passion for speed and skill.
+                                    Formula 1, often referred to as F1, is the pinnacle of motorsport, where cutting-edge technology meets unparalleled speed. The thrill lies not only in the high-speed races but also in the intricate strategies and team dynamics. With races held in stunning locations from Monaco to Suzuka, F1 captivates millions of fans worldwide. It’s more than just a sport; it’s a community united by a shared passion for speed and skill
                                 </div>
 
                                 <div>
-                                F1 is not just about watching cars race; it’s about experiencing the culture, the excitement, and the emotion of the sport. Fans engage with F1 through social media, live events, and fan zones, creating a vibrant community that celebrates each race together. The connection between fans and drivers adds an emotional layer to every competition.
+                                F1 is not just about watching cars race; it’s about experiencing the culture, the excitement, and the emotion of the sport. Fans engage with F1 through social media, live events, and fan zones, creating a vibrant community that celebrates each race together. The connection between fans and drivers adds an emotional layer to every competition
                                 </div>
 
                                 <div>
@@ -59,13 +59,13 @@ const WhatIsF1 = () =>{
                     <div className='sub-container-variant2'>
                         <div className='sub-container-variant2-left'>
                             <div>
-                                <video className='sub-container-variant2-left-video' src={meetDrivers} controls autoPlay muted playsInline loop></video>                                
+                                <video className='sub-container-variant2-left-video' src={meetDrivers} controls playsInline></video>                                
                             </div>
                         </div>
 
                         <div className='sub-container-variant2-right'>
                             <div className='sub-container-variant2-right-heading'>Meet the Drivers
-                                <div className='sub-container-variant2-right-sub--heading'>Extreme g-forces. Daring decisions made in the blink of an eye – and at 370km/h. Dramatically battling to be the best, Formula 1 drivers are more like fighter pilots than sportspeople. Only 20 get the chance to compete, and they push themselves – and their incredible machines – to the very limit.</div>
+                                <div className='sub-container-variant2-right-sub--heading'>Extreme g-forces. Daring decisions made in the blink of an eye – and at 370km/h. Dramatically battling to be the best, Formula 1 drivers are more like fighter pilots than sportspeople. Only 20 get the chance to compete, and they push themselves – and their incredible machines – to the very limit</div>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const WhatIsF1 = () =>{
                                 </div>
 
                                 <div>
-                                    F1 drivers are the embodiment of speed, precision, and determination. Behind the wheel of the most advanced racing machines on the planet, they navigate tight corners, high-speed straights, and ever-changing conditions with unparalleled skill. It takes years of dedication and a unique combination of mental and physical strength to become a Formula 1 driver.
+                                    F1 drivers are the embodiment of speed, precision, and determination. Behind the wheel of the most advanced racing machines on the planet, they navigate tight corners, high-speed straights, and ever-changing conditions with unparalleled skill. It takes years of dedication and a unique combination of mental and physical strength to become a Formula 1 driver
                                 </div>
 
                                 <div>
