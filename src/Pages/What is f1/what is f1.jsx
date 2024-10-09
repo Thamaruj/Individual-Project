@@ -33,7 +33,7 @@ const WhatIsF1 = () =>{
                         </div>
                         <div className='sub-container-variant1-right'>
                             <div>
-                                <video className='sub-container-variant1-right-video' src={thisIsFormula1Video} controls autoPlay muted playsInline loop></video>
+                                <video className='sub-container-variant1-right-video' src={thisIsFormula1Video} controls autoPlay playsInline loop></video>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const WhatIsF1 = () =>{
                     <div className='sub-container-variant2'>
                         <div className='sub-container-variant2-left'>
                             <div>
-                                <video className='sub-container-variant2-left-video' src={meetDrivers} controls playsInline></video>                                
+                                <video className='sub-container-variant2-left-video' src={meetDrivers} nodownload controls playsInline></video>                                
                             </div>
                         </div>
 

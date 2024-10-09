@@ -61,7 +61,7 @@ const Sponsers = () => {
 
 
             <div className="silver-sponsers">
-                <a href="https://www.188bet.com/en-gb">                <img className="platinum-sponsers-images" src={bet} alt="" /></a>
+                <a href="https://www.188bet.com/en-gb"><img className="platinum-sponsers-images" src={bet} alt="" /></a>
                 <a href="https://www.workday.com/"><img className="platinum-sponsers-images" src={workday} alt="" /> </a>
                 <a href="https://www.aggreko.com/en-us"><img className="platinum-sponsers-images" src={aggreko} alt="" /></a>
                 <a href="https://www.americanexpress.com/"><img className="platinum-sponsers-images" src={amex} alt="" /></a>

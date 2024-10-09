@@ -23,13 +23,6 @@ const Navbar = ({  toggleTheme }) => {
           </ul>
         </div>
 
-        
-
-    
-
-
-
-
     
     </nav>
   );
