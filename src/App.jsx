@@ -4,13 +4,13 @@ import WelcomePage from './Pages/Welcome Page/Welcome Page';
 import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom'; // Import Navigate
 import lightImage from '../public/light_mode_16dp_FFFFFF_FILL0_wght400_GRAD-25_opsz20.png';
 import darkImage from '../public/dark_mode_16dp_FFFFFF_FILL0_wght400_GRAD-25_opsz20.png';
-import SignUp from './Account Maintainance/SignUp page/Signup';
 import LogIn from './Account Maintainance/LogIn Page/LogIn';
 import MainPage from './Pages/Main Page/Main page';
 import Navbar from './Common Components/Nav bar/Nav bar';
 import Sponsers from './Common Components/Sponsers Details/Sponser';
 import WhatIsF1 from './Pages/What is f1/what is f1';
 import ScrollUp from './Common Components/ScrollUp';
+import SignUp from './Account Maintainance/Signup Page/SignUp';
 
 
 function App() {
